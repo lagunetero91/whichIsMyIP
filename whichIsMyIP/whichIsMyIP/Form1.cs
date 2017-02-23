@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using System.Net;
 using System.Net.Sockets;
 
-namespace whoIsMyIP
+namespace whichIsMyIP
 {
     public partial class Form1 : Form
     {
@@ -26,9 +26,9 @@ namespace whoIsMyIP
 
         private void getMyIP()
         {
-            IPHostEntry host = Dns.Resolve(Dns.GetHostName());
-            IPAddress ip = host.AddressList[0];
-            MessageBox.Show("My IP is: " + ip);
+            IPHostEntry hostInfo = Dns.Resolve(Dns.GetHostName());
+            IPAddress ip = hostInfo.AddressList[0];
+            MessageBox.Show("My IP is " + ip);
         }
     }
 }

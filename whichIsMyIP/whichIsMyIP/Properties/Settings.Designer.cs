@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace whoIsMyIP.Properties
+namespace whichIsMyIP.Properties
 {
 
 

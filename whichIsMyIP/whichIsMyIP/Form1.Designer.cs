@@ -1,4 +1,4 @@
-﻿namespace whoIsMyIP
+﻿namespace whichIsMyIP
 {
     partial class Form1
     {
@@ -33,11 +33,11 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(58, 60);
+            this.button1.Location = new System.Drawing.Point(79, 94);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(101, 37);
+            this.button1.Size = new System.Drawing.Size(121, 53);
             this.button1.TabIndex = 0;
-            this.button1.Text = "My IP";
+            this.button1.Text = "Get IP";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -45,10 +45,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(222, 172);
+            this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Text = "WhoIsMyIP?";
+            this.Text = "Which Is My IP?";
             this.ResumeLayout(false);
 
         }
